@@ -1,0 +1,3 @@
+-cp
+.
+./Ghidra/Debug/TaintAnalysis/src/main/java/ghidra/pcode/emu/taint/TaintPcodeArithmetic.java
