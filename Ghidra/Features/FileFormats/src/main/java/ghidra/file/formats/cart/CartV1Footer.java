@@ -46,7 +46,7 @@ public class CartV1Footer {
 	 * @param byteProvider The byte provider from which to read
 	 * @throws IOException              If there was a problem reading from the byte
 	 *                                  provider
-	 * @throws CartInvalidCartException If there was a formating error with the CaRT
+	 * @throws CartInvalidCartException If there was a formatting error with the CaRT
 	 *                                  footer
 	 */
 	public CartV1Footer(ByteProvider byteProvider) throws IOException, CartInvalidCartException {
@@ -59,7 +59,7 @@ public class CartV1Footer {
 	 * @param reader The little-endian binary reader from with to read
 	 * @throws IOException              If there was a problem reading from the
 	 *                                  binary reader
-	 * @throws CartInvalidCartException If there was a formating error with the CaRT
+	 * @throws CartInvalidCartException If there was a formatting error with the CaRT
 	 *                                  footer
 	 */
 	public CartV1Footer(BinaryReader reader) throws IOException, CartInvalidCartException {

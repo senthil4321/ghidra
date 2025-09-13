@@ -46,7 +46,7 @@ public final class CartV1Header {
 	 * @param byteProvider The byte provider from which to read
 	 * @throws IOException              If there was a problem reading from the byte
 	 *                                  provider
-	 * @throws CartInvalidCartException If there was a formating error with the CaRT
+	 * @throws CartInvalidCartException If there was a formatting error with the CaRT
 	 *                                  header
 	 */
 	public CartV1Header(ByteProvider byteProvider) throws IOException, CartInvalidCartException {
@@ -59,7 +59,7 @@ public final class CartV1Header {
 	 * @param reader The little-endian binary reader from with to read
 	 * @throws IOException              If there was a problem reading from the
 	 *                                  binary reader
-	 * @throws CartInvalidCartException If there was a formating error with the CaRT
+	 * @throws CartInvalidCartException If there was a formatting error with the CaRT
 	 *                                  header
 	 */
 	public CartV1Header(BinaryReader reader) throws IOException, CartInvalidCartException {

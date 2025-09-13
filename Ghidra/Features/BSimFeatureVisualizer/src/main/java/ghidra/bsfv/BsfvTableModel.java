@@ -256,7 +256,7 @@ class BsfvTableModel extends AddressBasedTableModel<BsfvRowObject> {
 		try {
 			decompiler = getConfiguredDecompiler();
 			if (!decompiler.openProgram(plugin.getCurrentProgram())) {
-				Msg.info(this, "Unable to initalize the Decompiler interface");
+				Msg.info(this, "Unable to initialize the Decompiler interface");
 				Msg.info(this, decompiler.getLastMessage());
 				return false;
 			}

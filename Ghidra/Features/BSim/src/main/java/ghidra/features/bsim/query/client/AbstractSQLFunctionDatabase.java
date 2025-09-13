@@ -234,7 +234,7 @@ public abstract class AbstractSQLFunctionDatabase<VF extends LSHVectorFactory>
 	}
 
 	/**
-	 * @param erec the exectuable record representing the exec to delete
+	 * @param erec the executable record representing the exec to delete
 	 * @param funclist list of functions to remove from the callgraph table
 	 * @param hasCategories if true, deletes entries from the category table
 	 * @return the number of rows deleted
@@ -437,7 +437,7 @@ public abstract class AbstractSQLFunctionDatabase<VF extends LSHVectorFactory>
 
 	/**
 	 * Drop this database
-	 * @throws SQLException if a database error occured
+	 * @throws SQLException if a database error occurred
 	 */
 	abstract protected void dropDatabase() throws SQLException;
 

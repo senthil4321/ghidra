@@ -244,7 +244,7 @@ public class MemoryMapProvider1Test extends AbstractGhidraHeadedIntegrationTest 
 		assertEquals(".test", model.getValueAt(0, MemoryMapModel.NAME));
 	}
 
-// Test Eliminated - Memory API allows duplicate names which is a common occurance
+// Test Eliminated - Memory API allows duplicate names which is a common occurrence
 // with import formats such as ELF
 //
 //	public void testDuplicateName() throws Exception {

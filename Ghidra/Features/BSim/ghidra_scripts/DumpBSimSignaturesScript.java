@@ -49,7 +49,7 @@ public class DumpBSimSignaturesScript extends GhidraScript {
 			decompiler.toggleSyntaxTree(false);
 			decompiler.setSignatureSettings(SIGNATURE_SETTINGS);
 			if (!decompiler.openProgram(currentProgram)) {
-				println("Unable to initalize the Decompiler interface");
+				println("Unable to initialize the Decompiler interface");
 				println(decompiler.getLastMessage());
 				return;
 			}

@@ -31,7 +31,7 @@ public class Match {
 	 * Construct a Match of a DittedBitSequence at an offset within a byte stream.
 	 * Object normally used when a match occurs during a MemoryBytePatternSearch.
 	 * @param sequence that matched
-	 * @param offset from the start of byte stream where the matched occured
+	 * @param offset from the start of byte stream where the matched occurred
 	 */
 	public Match(DittedBitSequence sequence, long offset) {
 		this.sequence = sequence;

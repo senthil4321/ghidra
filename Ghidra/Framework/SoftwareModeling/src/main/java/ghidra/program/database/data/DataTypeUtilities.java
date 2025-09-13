@@ -819,7 +819,7 @@ public class DataTypeUtilities {
 	 *
 	 * @param dataType data type
 	 * @param includeCategoryPath if true, the category path will be included with the
-	 * returned name (e.g., /mypath/mydt) and any occurance of a forward slash within individual
+	 * returned name (e.g., /mypath/mydt) and any occurrence of a forward slash within individual
 	 * path components, including the data type name, will be escaped (e.g., {@code "\/"}).
 	 * @return name with optional category path included
 	 */

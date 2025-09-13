@@ -19,7 +19,7 @@ subject to change with future releases.
    * [Hover](#hover)
    * [Find References](#find-references)
    * [Renaming](#renaming)
-   * [Code Formating](#code-formatting)
+   * [Code Formatting](#code-formatting)
 5. [Uninstalling](#uninstalling)
 6. [Upgrading](#upgrading)
 7. [Building](#building)
@@ -103,14 +103,14 @@ error is embedding a connecting `&` in a define and then using it an a match pat
 `:MOV ax, bx is t1=1 & $(GoodDefine) {}`.
 
 ### QuickFix
-Some simple syntax errors can be fixed quickly with QuickFix suggestions. Pressing `Crtl-1` on an 
+Some simple syntax errors can be fixed quickly with QuickFix suggestions. Pressing `Ctrl-1` on an 
 error will bring up available quick-fixes:
 * _Undefined local variable_ - insert `local` or the `:size` form if the size can be detected.
 * _Undefined user pcodeop_ - can insert a user pcodeop definition for an unknown identifier
 * _Undefined macro_ - can insert a macro definition for an unknown identifier
 * _Add token field definition_ - for an unknown token in the match pattern
 
-More quick-fixes may be added in the future. Please note quickfixes can be slow on large files such
+More quick fixes may be added in the future. Please note quick fixes can be slow on large files such
 as the AARCH64.
   
 ### Hover
