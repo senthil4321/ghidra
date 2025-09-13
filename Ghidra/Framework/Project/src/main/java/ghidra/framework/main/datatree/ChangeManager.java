@@ -335,7 +335,7 @@ class ChangeManager implements DomainFolderChangeListener, TreeModelListener {
 	public void treeStructureChanged(TreeModelEvent e) {
 
 		// This is used when an existing node is loaded to register all of its link-file children
-		// since the occurance of treeNodesChanged cannot be relied upon for notification of
+		// since the occurrence of treeNodesChanged cannot be relied upon for notification of
 		// these existing children.
 
 		TreePath treePath = e.getTreePath();

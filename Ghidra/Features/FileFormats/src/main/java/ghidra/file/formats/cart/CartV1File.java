@@ -58,7 +58,7 @@ public class CartV1File {
 	 * @param byteProvider The byte provider from which to read
 	 * @throws IOException                 If there was a problem reading from the
 	 *                                     byte provider
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If the decryption of the payload or JSON
 	 *                                     deserialization fails.
@@ -79,7 +79,7 @@ public class CartV1File {
 	 * @param arc4Key The ARC4 key to use as a user provided string
 	 * @throws IOException                 If there was a problem reading from the
 	 *                                     byte provider
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If the decryption of the payload or JSON
 	 *                                     deserialization fails.
@@ -99,7 +99,7 @@ public class CartV1File {
 	 * @param reader The little-endian binary reader from with to read
 	 * @throws IOException                 If there was a problem reading from the
 	 *                                     byte provider
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If the decryption of the payload or JSON
 	 *                                     deserialization fails.
@@ -120,7 +120,7 @@ public class CartV1File {
 	 * @param arc4Key The ARC4 key to use as a user provided string
 	 * @throws IOException                 If there was a problem reading from the
 	 *                                     byte provider
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If the decryption of the payload or JSON
 	 *                                     deserialization fails.
@@ -269,7 +269,7 @@ public class CartV1File {
 	 *
 	 * @return The CartV1Decryptor object
 	 * @throws IOException                 If there is a read failure of the data
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If no key could be determined
 	 * @throws CartConfigurationException  If the configuration data for CaRT was
@@ -328,7 +328,7 @@ public class CartV1File {
 	 * @param proposedArc4Key The ARC4 key being proposed for this CaRT as a String
 	 * @return The CartV1Decryptor object
 	 * @throws IOException                 If there is a read failure of the data
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If no key could be determined
 	 * @throws CartConfigurationException  If the configuration data for CaRT was
@@ -380,7 +380,7 @@ public class CartV1File {
 	 * @param proposedArc4Key The ARC4 key being proposed for this CaRT
 	 * @return The CartV1Decryptor object
 	 * @throws IOException                 If there is a read failure of the data
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If no key could be determined
 	 * @throws CartConfigurationException  If the configuration data for CaRT was
@@ -413,7 +413,7 @@ public class CartV1File {
 	 * @param potentialARC4key The potential ARC4 key
 	 * @return True if decryption was successful, false otherwise
 	 * @throws IOException                 If there was a failure to read the data
-	 * @throws CartInvalidCartException    If there was a formating error with the
+	 * @throws CartInvalidCartException    If there was a formatting error with the
 	 *                                     CaRT file
 	 * @throws CartInvalidARC4KeyException If there was another key error
 	 * @throws CancelledException          If the user cancels decryption

@@ -382,7 +382,7 @@ public class SharedRangeMapDB {
 	 * range.
 	 * @param start
 	 * @param end
-	 * @return Iterator of unique LongField values occuring within the
+	 * @return Iterator of unique LongField values occurring within the
 	 * specified range.
 	 */
 	public Iterator<Field> getValueIterator(long start, long end) {

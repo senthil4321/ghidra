@@ -1104,13 +1104,13 @@ public class GhidraSourceBundle extends GhidraBundle {
 	}
 
 	private static class Summary {
-		private static final String SEPERATOR = ", ";
+		private static final String SEPARATOR = ", ";
 		private final StringWriter stringWriter = new StringWriter();
 		private final PrintWriter printWriter = new PrintWriter(stringWriter, true);
 
 		void printf(String format, Object... args) {
 			if (stringWriter.getBuffer().length() > 0) {
-				printWriter.write(SEPERATOR);
+				printWriter.write(SEPARATOR);
 			}
 			printWriter.printf(format, args);
 		}

@@ -5,7 +5,7 @@
       interior of a structure.  We should see the initialization of the pointer
       based on a particular field, and we should see accesses into the structure
       from the pointer using the special functional syntax. The are accesses
-      of different types occuring both before and after the original pointer.
+      of different types occurring both before and after the original pointer.
   -->
 <bytechunk space="ram" offset="0x1006fa" readonly="true">
                     554889e54889

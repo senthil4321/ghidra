@@ -37,7 +37,7 @@ public class ClosedSequenceMiner {
 
 	private Set<FrequentSequence> frequentClosedSequences;
 	private int minSupport;  //lower bound for how many sequences something must occur in                                      
-	private TreeSet<FrequentSequenceItem> globallyFrequentItems;  //items occuring in at least minSupport sequences
+	private TreeSet<FrequentSequenceItem> globallyFrequentItems;  //items occurring in at least minSupport sequences
 	private SequenceDatabase database; //database to mine
 
 	/**

@@ -119,7 +119,7 @@ size_t lzfse_encode_buffer_with_scratch(uint8_t *__restrict dst_buffer,
       goto try_uncompressed;
     if (lzfse_encode_finish(state) != LZFSE_STATUS_OK)
       goto try_uncompressed;
-    //  No error occured, return compressed size.
+    //  No error occurred, return compressed size.
     return state->dst - dst_buffer;
   }
 

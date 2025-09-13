@@ -445,10 +445,10 @@ public class FieldIndexTable extends IndexTable {
 
 		/**
 		 * Construct a key iterator.  The iterator is positioned immediately before
-		 * the key associated with the first occurance of the startValue.
+		 * the key associated with the first occurrence of the startValue.
 		 * @param startValue indexed field value.
 		 * @param after if true the iterator is positioned immediately after
-		 * the last occurance of the specified startValue position.
+		 * the last occurrence of the specified startValue position.
 		 * @throws IOException thrown if IO error occurs
 		 */
 		PrimaryKeyIterator(Field startValue, boolean after) throws IOException {

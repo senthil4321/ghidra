@@ -160,7 +160,7 @@ abstract class IndexTable {
 	}
 
 	/**
-	 * Determine if there is an occurance of the specified index key value.
+	 * Determine if there is an occurrence of the specified index key value.
 	 * @param field index key value
 	 * @return true if an index key value equal to field exists.
 	 * @throws IOException if IO error occurs

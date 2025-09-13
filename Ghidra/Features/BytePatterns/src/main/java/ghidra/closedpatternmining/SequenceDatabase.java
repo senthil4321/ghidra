@@ -78,7 +78,7 @@ public class SequenceDatabase {
 	}
 
 	/**
-	 * returns the set of all items occuring in at least {@code minSupport} sequences
+	 * returns the set of all items occurring in at least {@code minSupport} sequences
 	 * in the database.
 	 * @param minSupport minimum number of sequences that must contain an item
 	 * @return set of frequent items

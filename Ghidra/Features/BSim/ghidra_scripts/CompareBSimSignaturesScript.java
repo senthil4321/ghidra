@@ -123,7 +123,7 @@ public class CompareBSimSignaturesScript extends GhidraScript {
 			decompiler.toggleSyntaxTree(false);
 			decompiler.setSignatureSettings(vectorFactory.getSettings());
 			if (!decompiler.openProgram(program)) {
-				println("Unable to initalize the Decompiler interface");
+				println("Unable to initialize the Decompiler interface");
 				println(decompiler.getLastMessage());
 				return null;
 			}
